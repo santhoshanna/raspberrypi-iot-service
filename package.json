@@ -1,0 +1,24 @@
+{
+  "name": "raspberrypi-iot-service",
+  "version": "1.0.0",
+  "description": "raspberrypi-iot-service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhoshanna/raspberrypi-iot-service.git"
+  },
+  "keywords": [
+    "IOT",
+    "Raspberry-PI"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhoshanna/raspberrypi-iot-service/issues"
+  },
+  "homepage": "https://github.com/santhoshanna/raspberrypi-iot-service#readme"
+}
