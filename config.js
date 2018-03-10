@@ -1,11 +1,7 @@
 module.exports = {
 		"develop_config": {
-			"documentDB" : {
-			  "connection" : {
-				  endpoint: 'https://cdb-swm-dev-001.documents.azure.com:443/',
-				  authKey: 'p0m7MPVaMHSgtc8pxH0MUN1Ufgk6s674D2iaolPNn1LwT34e0aDHOCFgYpUwEpF0myicGaObeFpgwsRDjMgQug==',
-				  databaseID: 'admin'
-			  }
+			"iot" : {
+			  "connection" : "HostName=BH-IOT-HUB.azure-devices.net;DeviceId=BS-Raspberry-pi;SharedAccessKey=ZLQgsQwWu/+lSm5aNcL8STcOwDhGyXYrVBDyTe/0Kbg="
 			},
 			"loggerConfig":{
 				"log_filename" : "sensor_iot_service.log",
